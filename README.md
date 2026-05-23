@@ -81,3 +81,71 @@ python main.py
 ## Data Handling
 
 The system processes user input, converts tool responses into structured data, and generates readable output using Python dictionaries and JSON formatting.
+
+# Final Submission – Project Summary
+
+## System Description
+
+The project is a Python-based AI-assisted system that processes user requests and uses external tools to generate results.  
+The goal is to demonstrate AI workflow integration with practical tool usage.
+
+---
+
+## Programming Concepts Used
+
+- Functions and classes
+- Modular programming
+- Exception handling
+- Input validation
+- JSON/data processing
+- API and tool integration
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|---|---|
+| File Reader | Reads input files |
+| Calculator Tool | Performs calculations |
+| API/Search Tool | Retrieves information |
+| AI Agent | Handles workflow and responses |
+
+---
+
+## Testing
+
+The system was tested for:
+- workflow functionality,
+- tool execution,
+- input validation,
+- error handling.
+
+All main test scenarios passed successfully.
+
+---
+
+## Deployment Preparation
+
+The project includes:
+- `requirements.txt`
+- README documentation
+- startup instructions
+
+Run the system using:
+
+```bash
+python main.py
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Deployment Strategy
+
+The system is prepared as a local command-line application and can later be extended into a web or API-based service.
